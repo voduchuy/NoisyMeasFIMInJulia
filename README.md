@@ -1,6 +1,6 @@
 # NoisyMeasFIMInJulia
 
-Julia translation of the numerical analyses in the [preprint](https://doi.org/10.1101/2021.05.11.443611):
+Julia translation of the numerical analyses (originally coded in Python/Cython/C++) in the [preprint](https://doi.org/10.1101/2021.05.11.443611):
 
 _Designing single-cell experiments to harvest fluctuation information while rejecting measurement noise_
 Huy D. Vo, Brian Munsky
