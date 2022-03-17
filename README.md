@@ -8,7 +8,7 @@ bioRxiv 2021.05.11.443611;
 
 ## Setting up the Julia environment
 A `Project.toml` file is provided in the root folder to facilitate setting up a Julia environment. 
-Simply change working directory to the local folder of the repository. Open a Julia REPL session. Then type `]` to 
+First clone this repository to the user's machine. Then, change working directory to the local folder of the repository. Open a Julia REPL session. Then type `]` to 
 switch to package mode. Then enter the following commands
 ```
 pkg> activate
