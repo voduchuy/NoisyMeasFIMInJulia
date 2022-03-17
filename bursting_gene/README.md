@@ -5,6 +5,13 @@ mkdir results
 ```
 We will store all numerical outputs (as `.jld2` files) in this subfolder.
 
+## Script execution
+We assume that a local Julia environment has been appropriately instantiated with all dependencies installed (see Readme file in the root folder). The very first script to execute
+```
+julia --project=<path_to_root_folder> 0_solve_sensitivity_cme.jl
+```
+These generate the model-predicted mRNA distributions and their partial derivatives w.r.t model parmeters. Subsequent scripts simulate how parameter uncertainties are distorted under different measurement errors.
+
 ## Note on the order of script execution 
 The scripts are named in a hiearachical way. 
 The script `2_***.jl` should not be executed until `i_***.jl` for 
